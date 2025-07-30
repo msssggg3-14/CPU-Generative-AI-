@@ -7,7 +7,7 @@ import time
 # =================================================================
 # ▼ 1. 검색 조건 및 저장 경로 설정
 # =================================================================
-SEARCH_KEYWORD = 'transformer AND attention' # Generative Adversarial Networks 다음에 하기
+SEARCH_KEYWORD = 'VAE AND Generative Ai' # Generative Adversarial Networks 다음에 하기
 SEARCH_RANGE_YEARS = "10"
 COUNTRIES = "US"
 SORT_FIELD = "AD"
