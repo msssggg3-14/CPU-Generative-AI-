@@ -27,7 +27,7 @@ MODEL_NAME = "anferico/bert-for-patents"
 # 2. 데이터 로드 및 분할
 # =========================================================================
 print("데이터 로드 및 분할 중...")
-original_df = pd.read_excel('/home/mssggg/CPU/code/api/data/TUNED/train_data(Diffusion model).xlsx')
+original_df = pd.read_excel('/home/mssggg/CPU/code/api/data/TUNED/train_data(VAE).xlsx')
 
 # 텍스트와 레이블 준비
 data = original_df['특허명칭'].tolist()
