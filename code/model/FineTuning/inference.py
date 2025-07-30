@@ -21,7 +21,7 @@ else:
     print("GPU를 사용할 수 없어 모델이 CPU로 로드되었습니다.")
 
 
-new_data_df = pd.read_excel('code/api/data/TUNED/foreign_patents_unique(Diffusion model).xlsx')
+new_data_df = pd.read_excel('code/api/data/TUNED/foreign_patents_unique(VAE).xlsx')
 print(new_data_df.head())
 new_data_df.dropna(subset=['특허명칭'], inplace=True)
 print(new_data_df.head())
