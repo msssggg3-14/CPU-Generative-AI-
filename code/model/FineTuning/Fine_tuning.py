@@ -8,7 +8,7 @@ from sklearn.metrics import f1_score, roc_auc_score # F1-score, ROC AUC 계산�
 import random
 
 # 데이터 로드
-original = pd.read_excel('/home/mssggg/CPU/code/api/data/TUNED/train_data(Diffusion model).xlsx')
+original = pd.read_excel('/home/mssggg/CPU/code/api/data/TUNED/train_data(VAE).xlsx')
 data = original['특허명칭']
 labels_raw = original[['근본', '생성형 AI']].values.tolist()
 
